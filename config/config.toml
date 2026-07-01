@@ -1,0 +1,31 @@
+
+[llm]
+api_type = "openai"
+model = "llama-3.1-8b-instant"
+base_url = "https://api.groq.com/openai/v1"
+api_key = "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"
+max_tokens = 4096
+temperature = 0.2
+timeout = 300
+
+[llm.vision]
+api_type = "openai"
+model = "llama-3.1-8b-instant"
+base_url = "https://api.groq.com/openai/v1"
+api_key = "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"
+max_tokens = 4096
+temperature = 0.2
+timeout = 300
+
+[sandbox]
+type = "daytona"
+
+[browser]
+headless = true
+disable_security = true
+
+[daytona]
+enabled = true
+daytona_api_key = "dtn_76e8efbdc509b7e805bce79845f321abf50089bd27bd75fdda79d9da46311a00"
+daytona_server_url = "https://daytona.io"
+daytona_target = "us"
